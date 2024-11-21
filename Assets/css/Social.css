@@ -1,0 +1,98 @@
+.container-features {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card-feature {
+    background: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    width: 280px; 
+    height: 210px;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-feature svg,
+.card-feature i {
+    margin-bottom: 1rem;
+    font-size: 2.5rem; 
+    transition: color 0.3s ease;
+}
+
+.card-feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature-content {
+    margin-top: 10px;
+}
+
+.feature-content span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.feature-content a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.card-feature:hover {
+    transform: translateY(-5px);
+}
+
+
+.feature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.platform-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.store-link {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    transition: color 0.3s;
+}
+
+.store-link i {
+    margin-right: 8px;
+    font-size: 1.5rem;
+}
+
+.store-link:hover {
+    color: #0056b3;
+}
+
+.google-play i {
+    color: #34a853;
+}
+
+.app-store i {
+    color: #000;
+}
